@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "Zoom Closer",
-  "description": "This extension automatically closes the launched window from Zoom meetings.",
-  "version": "1.6",
+  "name": "Launch Page Closer",
+  "description": "This extension automatically closes annoying launch pages (zoom, teams, etc).",
+  "version": "1.8",
 
   "icons": {
     "16": "assets/icon-16.png",
@@ -24,7 +24,8 @@
         "https://zoom.us/j/*",
         "https://*.zoom.us/j/*",
         "https://zoom.us/s/*",
-        "https://*.zoom.us/s/*"
+        "https://*.zoom.us/s/*",
+	"https://teams.microsoft.com/dl/launcher/*"
       ],
       "js": [
         "content.js"
